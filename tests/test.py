@@ -1,18 +1,3 @@
-# Fixed-point solver
-FixedPointJAX is a simple implementation of a fixed-point iteration algorithm for root finding in JAX.
-
-* Strives to be minimal
-* Has no dependencies other than JAX
-
-## Installation
-
-```bash
-pip install FixedPointJAX
-```
-
-## Usage
-
-```python
 
 import jax.numpy as jnp
 from jax import random
@@ -49,4 +34,3 @@ print('-----------------------------------------')
 print(f'System of fixed-point equations is solved: {jnp.allclose(x,fun(x)[0])}.')
 print(f'Probabilities are identical: {jnp.allclose(s0, my_logit(x))}.')
 print('-----------------------------------------')
-```
