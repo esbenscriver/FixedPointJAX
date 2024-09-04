@@ -15,6 +15,7 @@ def my_fxp(x,s0):
 	s = my_logit(x)
 	z = jnp.log(s0 / s)
 	return x + z, z
+
 print('-----------------------------------------')
 # Dimensions of system of fixed-point equations
 shape = (3, 4)
