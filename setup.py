@@ -4,7 +4,10 @@ setup(
     name="FixedPointJAX",
     version="0.0.10",
     packages=find_packages(),
-    install_requires=[],
+    install_requires=[
+        # List of package dependencies
+        'jax',
+    ],
     author="Esben Scriver Andersen",
     author_email="esbenscriver@gmail.com",
     description="Fixed-point iterations for root finding implemented in JAX",
