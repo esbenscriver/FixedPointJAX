@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="FixedPointJAX",
-    version="0.0.10",
+    version="0.0.20",
     packages=find_packages(),
     install_requires=[
         # List of package dependencies
