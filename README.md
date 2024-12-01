@@ -1,3 +1,4 @@
+[![PyPI version](https://badge.fury.io/py/FixedPointJAX.svg)](https://badge.fury.io/py/FixedPointJAX)
 # Fixed-point solver
 FixedPointJAX is a simple implementation of a fixed-point iteration algorithm for root finding in JAX. The implementation allow the user to solve the system of fixed point equations by standard fixed point iterations and the SQUAREM accelerator, see [Du and Varadhan (2020)](https://www.jstatsoft.org/article/view/v092i07).
 
