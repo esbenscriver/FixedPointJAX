@@ -1,5 +1,5 @@
 # Fixed-point solver
-FixedPointJAX is a simple implementation of a fixed-point iteration algorithm for root finding in JAX.
+FixedPointJAX is a simple implementation of a fixed-point iteration algorithm for root finding in JAX. The implementation allow the user to solve the system of fixed point equations by standard fixed point iterations and the SQUAREM accelerator, see [Du and Varadhan (2020)](https://www.jstatsoft.org/article/view/v092i07).
 
 * Strives to be minimal
 * Has no dependencies other than JAX
